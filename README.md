@@ -18,15 +18,15 @@
   ```python
   from transformers import AutoTokenizer, AutoModelForCausalLM
   
-  model_id = "shenzhi-wang/Llama3-8B-Chinese-Chat"
+  model_path_or_name = "unstoppable123/Llama-3-8B-Chinese-chat-v0.1"
   
   tokenizer = AutoTokenizer.from_pretrained(model_id)
   model = AutoModelForCausalLM.from_pretrained(
-      model_id, torch_dtype="auto", device_map="auto"
+       model_path_or_name, torch_dtype="auto", device_map="auto"
   )
   
   messages = [
-      {"role": "system", "content": "You are Llama3-8B-Chinese-Chat, which is finetuned on Llama3-8B-Instruct with Chinese-English mixed data by the ORPO alignment algorithm. You, Llama3-8B-Chinese-Chat, is developed by Shenzhi Wang (王慎执 in Chinese). You are a helpful assistant."},
+      {"role": "system", "content": "You are a helpful assistant."},
       {"role": "user", "content": "介绍一下你自己"},
   ]
   
