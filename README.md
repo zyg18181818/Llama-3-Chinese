@@ -20,7 +20,7 @@
   
   model_path_or_name = "unstoppable123/Llama-3-8B-Chinese-chat-v0.1"
   
-  tokenizer = AutoTokenizer.from_pretrained(model_id)
+  tokenizer = AutoTokenizer.from_pretrained(model_path_or_name)
   model = AutoModelForCausalLM.from_pretrained(
        model_path_or_name, torch_dtype="auto", device_map="auto"
   )
