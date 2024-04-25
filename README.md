@@ -13,7 +13,7 @@
 
 ```python
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"     #需要放在torch之前
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"     #before torch
 from transformers import AutoTokenizer, AutoConfig, AddedToken, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import PeftModel
 from dataclasses import dataclass
@@ -160,11 +160,11 @@ def main():
         response = tokenizer.decode(outputs)
         response = response.strip().replace(template.stop_word, "").strip()
 
-        # 存储对话历史
+        # history
         history.append({"role": 'user', 'message': query})
         history.append({"role": 'assistant', 'message': response})
 
-        # 当对话长度超过6轮时，清空最早的对话，可自行修改
+
         if len(history) > 12:
             history = history[:-12]
         if response.startswith("<|start_header_id|>assistant<|end_header_id|>"):
