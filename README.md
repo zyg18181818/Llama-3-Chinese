@@ -1,4 +1,4 @@
-# Llama-3-Chines
+# Llama-3-Chinese
 
 ## Updates:
 
