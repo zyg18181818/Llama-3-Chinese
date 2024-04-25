@@ -27,7 +27,7 @@
   
   messages = [
       {"role": "system", "content": "You are a helpful assistant."},
-      {"role": "user", "content": "先有鸡还是先有蛋"},
+      {"role": "user", "content": "先有鸡还是先有蛋？"},
   ]
   
   input_ids = tokenizer.apply_chat_template(
