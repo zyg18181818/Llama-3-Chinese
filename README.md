@@ -10,6 +10,7 @@
 
 - **Run Llama-3-8B-Chinese-chat**
 
+  ```
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"     #需要放在torch之前
 from transformers import AutoTokenizer, AutoConfig, AddedToken, AutoModelForCausalLM, BitsAndBytesConfig
