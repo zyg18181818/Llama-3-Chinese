@@ -57,28 +57,14 @@ register_template(
 
 
 ## 加载模型
-def load_model(model_name_or_path, load_in_4bit=False, adapter_name_or_path=None):
-    if load_in_4bit:
-        quantization_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4",
-            llm_int8_threshold=6.0,
-            llm_int8_has_fp16_weight=False,
-        )
-    else:
-        quantization_config = None
+def load_model(model_name_or_path, adapter_name_or_path=None):
 
-    # 加载base model
     model = AutoModelForCausalLM.from_pretrained(
         model_name_or_path,
-        load_in_4bit=load_in_4bit,
         trust_remote_code=True,
         # low_cpu_mem_usage=True,
         torch_dtype=torch.float16,
-        device_map='auto',
-        quantization_config=quantization_config
+        device_map='auto'
     )
 
     # 加载adapter
@@ -137,21 +123,17 @@ def main():
     adapter_name_or_path = None
 
     template = template_dict[template_name]
-    # 若开启4bit推理能够节省很多显存，但效果可能下降
-    load_in_4bit = False
 
-    # 生成超参配置，可修改以取得更好的效果
-    max_new_tokens = 256 # 每次回复时，AI生成文本的最大长度
+    max_new_tokens = 256 
     top_p = 0.9
-    temperature = 0.6 # 越大越有创造性，越小越保守
-    repetition_penalty = 1.1 # 越大越能避免吐字重复
+    temperature = 0.6 
+    repetition_penalty = 1.1 
 
     # 加载模型
     print(f'Loading model from: {model_name_or_path}')
     print(f'adapter_name_or_path: {adapter_name_or_path}')
     model = load_model(
         model_name_or_path,
-        load_in_4bit=load_in_4bit,
         adapter_name_or_path=adapter_name_or_path
     ).eval()
     tokenizer = load_tokenizer(model_name_or_path if adapter_name_or_path is None else adapter_name_or_path)
@@ -186,8 +168,10 @@ def main():
         if len(history) > 12:
             history = history[:-12]
         if response.startswith("<|start_header_id|>assistant<|end_header_id|>"):
-            cleaned_response = response[len("<|start_header_id|>assistant<|end_header_id|>"):]
-        print("# Llama3-Chinese：{}".format(cleaned_response))
+            response = response[len("<|start_header_id|>assistant<|end_header_id|>"):]
+        if response.startswith("system<|end_header_id|>"):
+            response = response[len("system<|end_header_id|>"):]
+        print("# Llama3-Chinese：{}".format(response))
         query = input('# User：')
 
 
