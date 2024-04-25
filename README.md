@@ -21,7 +21,7 @@ from typing import Dict
 import torch
 import copy
 
-## 定义聊天模板
+## template
 @dataclass
 class Template:
     template_name:str
@@ -56,7 +56,7 @@ register_template(
 )
 
 
-## 加载模型
+
 def load_model(model_name_or_path, adapter_name_or_path=None):
 
     model = AutoModelForCausalLM.from_pretrained(
@@ -67,13 +67,13 @@ def load_model(model_name_or_path, adapter_name_or_path=None):
         device_map='auto'
     )
 
-    # 加载adapter
+    
     if adapter_name_or_path is not None:
         model = PeftModel.from_pretrained(model, adapter_name_or_path)
 
     return model
 
-## 加载tokenizer
+
 def load_tokenizer(model_name_or_path):
     tokenizer = AutoTokenizer.from_pretrained(
         model_name_or_path,
@@ -87,7 +87,7 @@ def load_tokenizer(model_name_or_path):
 
     return tokenizer
 
-## 构建prompt
+
 def build_prompt(tokenizer, template, query, history, system=None):
     template_name = template.template_name
     system_format = template.system_format   # '<|begin_of_text|><<SYS>>\n{content}\n<</SYS>>\n\n'
@@ -98,12 +98,12 @@ def build_prompt(tokenizer, template, query, history, system=None):
     history.append({"role": 'user', 'message': query})
     input_ids = []
 
-    # 添加系统信息
+    
     if system_format is not None:
         if system is not None:
             system_text = system_format.format(content=system)
             input_ids = tokenizer.encode(system_text, add_special_tokens=False)
-    # 拼接历史对话
+   
     for item in history:
         role, message = item['role'], item['message']
         if role == 'user':
@@ -129,7 +129,7 @@ def main():
     temperature = 0.6 
     repetition_penalty = 1.1 
 
-    # 加载模型
+    
     print(f'Loading model from: {model_name_or_path}')
     print(f'adapter_name_or_path: {adapter_name_or_path}')
     model = load_model(
