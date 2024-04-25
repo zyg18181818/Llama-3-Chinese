@@ -6,10 +6,7 @@
 
 
 
-## 1.Datasets
-
-
-## 2.QuickStart
+## 1.QuickStart
 
 - **Run Llama-3-8B-Chinese-chat**
 
@@ -45,3 +42,4 @@
   print(tokenizer.decode(response, skip_special_tokens=True))
   ```
 
+## 2.Datasets
