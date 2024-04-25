@@ -118,7 +118,7 @@ def build_prompt(tokenizer, template, query, history, system=None):
 
 
 def main():
-    model_name_or_path = '/data2/zyg/output/LLaMA-Factory/chinese-llama-3/LLaMA3-8B-chinese-v0.1' # 模型名称或路径，请修改这里
+    model_name_or_path = 'unstoppable123/Llama-3-8B-Chinese-chat-v0.1' # your path
     template_name = 'llama3'
     adapter_name_or_path = None
 
