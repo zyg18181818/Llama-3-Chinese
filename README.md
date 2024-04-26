@@ -1,6 +1,6 @@
-# Llama-3-Chinese
+# [Llama-3-Chinese](https://github.com/zyg18181818/Llama-3-Chinese)
 
-[**🇨🇳中文**](./README.md) | [**🌐English**](./README_EN.md) | [**📖文档/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**❓提问/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**💬讨论/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussions) | [**⚔️竞技场/Arena**](http://chinese-alpaca-arena.ymcui.com/)
+[**🇨🇳中文**](./README.md) | [**🌐English**](./README_EN.md) | [**📖文档/Docs**](./README.md) | [**❓提问/Issues**](./README.md) | [**💬讨论/Discussions**](./README.md) | [**⚔️竞技场/Arena**](./README.md)
 
 ## Updates:
 
