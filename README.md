@@ -26,7 +26,8 @@
 - [📖 样例](#-样例)
 
 ## 🆙 更新
-- 🔥 我们在huggingface上上传了lora微调融合后的Llama-3-8B-Chinese-chat-v0.1[unstoppable123/Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1)以及Llama3-8B-Chinese-Chat-lora-v0.1的lora权重[unstoppable123/Llama-3-8B-chinese-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)!
+- 🔥 2024.25: 我们在huggingface上上传了lora微调融合后的Llama-3-8B-Chinese-chat-v0.1[unstoppable123/Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1)以及Llama3-8B-Chinese-Chat-lora-v0.1的lora权重[unstoppable123/Llama-3-8B-chinese-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)!
+- 🔥 2024.4.28: Llama3-8B-Chinese-Chat-lora-v0.2[HuggingFace](https://huggingface.co/unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2)也已经发布
 
 ## ⚡️ 快速开始
 
@@ -217,6 +218,7 @@ if __name__ == '__main__':
 | --------------- | --------------- | ------------------------------ | ------------------------------------------------------------ |
 |  lora微调(已融合)  | Llama-3-8B-Chinese-chat-v0.1  | unstoppable123/Llama-3-8B-Chinese-chat-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) |
 |  lora微调(lora权重)  | Llama3-8B-Chinese-Chat-lora-v0.1  | unstoppable123/Llama-3-8B-chinese-lora-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1) |
+|  lora微调(lora权重)  | Llama3-8B-Chinese-Chat-lora-v0.2  | unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2  | [HuggingFace](https://huggingface.co/unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2) |
 
 ### 🤖 中文对齐模型
 
@@ -236,7 +238,7 @@ if __name__ == '__main__':
 ## 🔧 设置
 
 ## 📖 样例
-🔵 v2回答样例（User部分为用户输入，Assistant部分为模型生成回复）
+🔵 v0.2回答样例（User部分为用户输入，Assistant部分为模型生成回复）
 ```bash
 User: 解释一下VUE原理
 
