@@ -9,7 +9,7 @@
 
 ## 🗂️ Guide
 - [QuickStark](#QuickStart)
-- [📝 Datasets](#Datasets)
+- [📝 Datasets](#-Datasets)
 - [📌 Chinese Llama Community](#-chinese-llama-community)
 
 
