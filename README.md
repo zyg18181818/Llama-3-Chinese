@@ -3,7 +3,7 @@
 [**🌐English**](./README.md) 
 
 ## ⚗️ Main Contents
-- 💡We provide a **complete workflow**, which includes pretrain, sft(FULL and qlora), DPO, evaluation to bulid a Llama-3-chineese-version.
+- 💡We provide a **complete workflow**, which includes pretrain, sft(FULL and qlora), DPO, evaluation to bulid a Llama-3-chinese-version.
 - 
 
 ## 🗂️ Guide
