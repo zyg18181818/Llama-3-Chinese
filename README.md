@@ -224,12 +224,12 @@ if __name__ == '__main__':
 ### 📄 预训练数据集
 
 ### 📄 微调数据集
-| 类型                                                       | 数据量 |描述                                                         |
+| 名称                                                      | 数据量 |描述                                                         |
 | ---------------------------------------------------------- | --------- |------------------------------------------------------------ |
-| [Firefly](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) |1150k    | 包含23种下游任务的优质中文数据                                |
-| [Ruozhiba](https://huggingface.co/datasets/LooksJuicy/ruozhiba)  |15k  | 弱智吧数据问答，有助于                                       |
-| [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) |50k  | MNBVC 中清洗出来的部分数据集 |
-| [COIG](https://huggingface.co/datasets/BAAI/COIG) |160k | MNBVC 中清洗出来的部分数据集 |
+| [Firefly](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) |1150k    | 包含23种常见中文下游任务的优质中文数据，对于每个任务，由人工书写若干种指令模板，保证数据的高质量与丰富度   |
+| [Ruozhiba](https://huggingface.co/datasets/LooksJuicy/ruozhiba)  |15k  | 弱智吧数据问答，有助于增强模型回答的逻辑性 |
+| [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) |50k  | 微软开源的数据，是利用 GPT-4 生成的 Alpaca 数据，并做了中文翻译 |
+| [COIG](https://huggingface.co/datasets/BAAI/COIG) |160k | 包含知乎、小红书历史问答、价值观、代码问题解决等考题型数据 |
 
 
 ### 📄 对齐数据集
