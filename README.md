@@ -213,6 +213,10 @@ if __name__ == '__main__':
 ### 🤖 中文预训练模型
 
 ### 🤖 中文微调模型
+|  类别  | 模型名称        | 🤗模型加载名称                  | 下载地址                                                     |
+| --------------- | --------------- | ------------------------------ | ------------------------------------------------------------ |
+|  lora微调(已融合)  | Llama-3-8B-Chinese-chat-v0.1  | unstoppable123/Llama-3-8B-Chinese-chat-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) |
+|  lora微调(lora权重)  | Llama3-8B-Chinese-Chat-lora-v0.1  | unstoppable123/Llama-3-8B-chinese-lora-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1) |
 
 ### 🤖 中文对齐模型
 
