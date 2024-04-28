@@ -9,7 +9,7 @@
 
 ## 🗂️ Guide
 - [QuickStark](#QuickStart)
-- [Datasets](#Datasets)
+- [📝 Datasets](#Datasets)
 - [📌 Chinese Llama Community](#-chinese-llama-community)
 
 
@@ -189,7 +189,7 @@ if __name__ == '__main__':
 ## 📌 Chinese Llama Community
 
 
-## 2.Datasets
+## 📝 Datasets
 
 ## 3.Setings
 
