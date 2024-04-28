@@ -231,7 +231,6 @@ if __name__ == '__main__':
 | [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) |50k  | 微软开源的数据，是利用 GPT-4 生成的 Alpaca 数据，并做了中文翻译 |
 | [COIG](https://huggingface.co/datasets/BAAI/COIG) |160k | 包含知乎、小红书历史问答、价值观、代码问题解决等考题型数据 |
 
-
 ### 📄 对齐数据集
 
 ## 🔧 设置
