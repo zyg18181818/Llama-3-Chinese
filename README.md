@@ -2,24 +2,23 @@
 
 [**🀄🇨🇳中文**](./README.md) | [**🔤English**](./README_EN.md) 
 
-## ⚗️ Main Contents
-- 💡We provide a **complete workflow**, which includes pretrain, sft(FULL and qlora), DPO, evaluation to bulid a Llama-3-chinese-version.
+## ⚗️ 主要内容
+- 💡我们提供了一个完整的工作流
 - 中文
 
 ## 🗂️ Guide
-- [🆙 Updates](#-Updates)
-- [⚡️ QuickStark](#-QuickStart)
-- [🚀 Workflow](#-Workflow)
-- [🤗 Models](#-Models)
-- [📝 Datasets](#-Datasets)
-- [🔧 Settings](#-Settings)
-- [📖 Examples](#-Examples)
+- [🆙 更新](#-更新)
+- [⚡️ 快速开始](#-快速开始)
+- [🚀 工作流](#-工作流)
+- [🤗 模型](#-模型)
+- [📝 数据集](#-数据集)
+- [🔧 设置](#-设置)
+- [📖 样例](#-样例)
 
-## 🆙 Updates
+## 🆙 更新
+- 🔥 我们在huggingface上上传了lora微调融合后的Llama-3-8B-Chinese-chat-v0.1[unstoppable123/Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1)以及Llama3-8B-Chinese-Chat-lora-v0.1的lora权重[unstoppable123/Llama-3-8B-chinese-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)!
 
-- 🔥 We provide Llama-3-8B-Chinese-chat-v0.1 at [unstoppable123/Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) and the LoRA weights for Llama3-8B-Chinese-Chat-lora-v0.1 at [unstoppable123/Llama-3-8B-chinese-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)!
-
-## ⚡️ QuickStart
+## ⚡️ 快速开始
 
 - **Run Llama-3-8B-Chinese-chat**
 
@@ -192,13 +191,13 @@ if __name__ == '__main__':
     main()
 ```
 
-## 🚀 Workflow
+## 🚀 工作流
 
-## 🤗 Models
+## 🤗 模型
 
-## 📝 Datasets
+## 📝 数据集
 
-## 🔧 Settings
+## 🔧 设置
 
-## 📖 Examples
+## 📖 样例
 
