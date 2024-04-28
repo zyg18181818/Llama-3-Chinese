@@ -226,12 +226,12 @@ if __name__ == '__main__':
 ### 📄 微调数据集
 | 类型                                                       | 描述                                                         |
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| 网络数据                                                   | 互联网上公开的网络数据，挑选出去重后的高质量中文数据，涉及到百科、书籍、博客、新闻、公告、小说等高质量长文本数据。 |
-| [Wikipedia](https://github.com/goldsmith/Wikipedia)        | 中文Wikipedia的数据                                          |
-| [悟道](https://github.com/BAAI-WuDao/Model)                | 中文悟道开源的200G数据                                       |
-| [Clue](https://github.com/CLUEbenchmark/CLUEDatasetSearch) | Clue开放的中文预训练数据，进行清洗后的高质量中文长文本数据   |
-| 竞赛数据集                                                 | 近年来中文自然语言处理多任务竞赛数据集，约150个              |
-| [MNBVC](https://github.com/esbatmop/MNBVC)                 | MNBVC 中清洗出来的部分数据集 |
+| [Firefly](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M)        | 中文Wikipedia的数据                                          |
+| [Ruozhiba](https://huggingface.co/datasets/LooksJuicy/ruozhiba)                | 中文悟道开源的200G数据                                       |
+| [LongBench](https://huggingface.co/datasets/THUDM/LongBench) | Clue开放的中文预训练数据，进行清洗后的高质量中文长文本数据   |
+| [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)                 | MNBVC 中清洗出来的部分数据集 |
+| [COIG](https://huggingface.co/datasets/BAAI/COIG)                 | MNBVC 中清洗出来的部分数据集 |
+
 
 ### 📄 对齐数据集
 
