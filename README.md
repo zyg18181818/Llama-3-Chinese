@@ -2,11 +2,15 @@
 
 [**🌐English**](./README.md) 
 
+## ⚗️ Main Contents
+- 💡We provide a **complete workflow**, which includes pretrain, sft(FULL and qlora), DPO, evaluation to bulid a Llama-3-chineese-version.
+- 
 
 ## 🗂️ Guide
 - [➕ Updates](#-Updates)
 - [⚡️ QuickStark](#-QuickStart)
 - [🚀 Workflow](#-Workflow)
+- [🤗 Models](#-Models)
 - [📝 Datasets](#-Datasets)
 - [🔧 Settings](#-Settings)
 - [📖 Examples](#-Examples)
@@ -190,11 +194,11 @@ if __name__ == '__main__':
 
 ## 🚀 Workflow
 
+## 🤗 Models
+
 ## 📝 Datasets
 
 ## 🔧 Settings
 
-
 ## 📖 Examples
-
 
