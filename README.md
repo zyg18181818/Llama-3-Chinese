@@ -20,7 +20,7 @@
 
 ## ⚡️ 快速开始
 
-- **Run Llama-3-8B-Chinese-chat**
+- **运行Llama-3-8B-Chinese-chat**
 
 
 ```python
