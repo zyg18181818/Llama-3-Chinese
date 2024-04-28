@@ -224,13 +224,12 @@ if __name__ == '__main__':
 ### 📄 预训练数据集
 
 ### 📄 微调数据集
-| 类型                                                       | 描述                                                         |
-| ---------------------------------------------------------- | ------------------------------------------------------------ |
-| [Firefly](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M)        | 中文Wikipedia的数据                                          |
-| [Ruozhiba](https://huggingface.co/datasets/LooksJuicy/ruozhiba)                | 中文悟道开源的200G数据                                       |
-| [LongBench](https://huggingface.co/datasets/THUDM/LongBench) | Clue开放的中文预训练数据，进行清洗后的高质量中文长文本数据   |
-| [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)                 | MNBVC 中清洗出来的部分数据集 |
-| [COIG](https://huggingface.co/datasets/BAAI/COIG)                 | MNBVC 中清洗出来的部分数据集 |
+| 类型                                                       | 数据量 |描述                                                         |
+| ---------------------------------------------------------- | --------- |------------------------------------------------------------ |
+| [Firefly](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) |1150k    | 包含23种下游任务的优质中文数据                                |
+| [Ruozhiba](https://huggingface.co/datasets/LooksJuicy/ruozhiba)  |15k  | 弱智吧数据问答，有助于                                       |
+| [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) |50k  | MNBVC 中清洗出来的部分数据集 |
+| [COIG](https://huggingface.co/datasets/BAAI/COIG) |160k | MNBVC 中清洗出来的部分数据集 |
 
 
 ### 📄 对齐数据集
