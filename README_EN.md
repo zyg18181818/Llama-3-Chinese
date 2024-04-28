@@ -3,15 +3,25 @@
 [**🀄🇨🇳中文**](./README.md) | **🔤English**
 
 ## ⚗️ Main Contents
-- 💡We provide a **complete workflow**, which includes pretrain, sft(FULL and qlora), DPO, evaluation to bulid a Llama-3-chinese-version.
-- 
+- 💡We provide a **complete workflow**, including incremental pre-training, fine-tuning (full parameter fine-tuning and lora fine-tuning), alignment, evaluation, resulting in a Llama model with strong Chinese capabilities
+- 💡We open source **Llama-Chinese** pre-trained with Chinese data and finetuned models with instructions
+- 💡We open source all the **datasets** we use and provide a way to filter the data
+- 💡We open source all the **training scripts**, users can further train according to their own needs
+- 💡We provide each stage of fine-tuning parameters corresponding to **time consumption** and **GPU memory occupation**, and lists the parameters affecting video memory and training time
 
 ## 🗂️ Guide
 - [🆙 Updates](#-Updates)
 - [⚡️ QuickStark](#-QuickStart)
 - [🚀 Workflow](#-Workflow)
 - [🤗 Models](#-Models)
+   * [🤖 Llama-3 official models](#-Llama-3-official-models)
+   * [🤖 Chinese Data Pretraining](#-Chinese-Data-Pretraining)
+   * [🤖 Chinese Data finetuning](#-Chinese-Data-finetuning)
+   * [🤖 Chinese data alignment](#-Chinese-data-alignment)
 - [📝 Datasets](#-Datasets)
+   * [📄 预训练数据集](#-预训练数据集)
+   * [📄 微调数据集](#-微调数据集)
+   * [📄 对齐数据集](#-对齐数据集)
 - [🔧 Settings](#-Settings)
 - [📖 Examples](#-Examples)
 
@@ -195,8 +205,34 @@ if __name__ == '__main__':
 ## 🚀 Workflow
 
 ## 🤗 Models
+### 🤖 Llama-3 official models
+|  Category  | Model Name        | 🤗Download Link                  | Download Link   |
+| --------------- | --------------- | ------------------------------ | ------------------------------------------------------------ |
+|  Pretrained  | Llama-3-8B  | meta-llama/Meta-Llama-3-8B  | [HuggingFace](https://huggingface.co/meta-llama/Meta-Llama-3-8B) |
+|  Chat  | Llama-3-8B-Instrcut  | meta-llama/Meta-Llama-3-8B-Instruct  | [HuggingFace](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) |
+
+### 🤖 Chinese Data Pretraining
+
+### 🤖 Chinese Data finetuning
+|  Category  | Model Name        | 🤗Download Link                  | Download Link   |
+| --------------- | --------------- | ------------------------------ | ------------------------------------------------------------ |
+|  lora微调(已融合)  | Llama-3-8B-Chinese-chat-v0.1  | unstoppable123/Llama-3-8B-Chinese-chat-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) |
+|  lora微调(lora权重)  | Llama3-8B-Chinese-Chat-lora-v0.1  | unstoppable123/Llama-3-8B-chinese-lora-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1) |
+
+### 🤖 Chinese data alignment
 
 ## 📝 Datasets
+### 📄 Chinese pretrain dataset
+
+### 📄 Chinese finetuine dataset
+| Name                 | Data size | Description                                                         |
+| ---------------------------------------------------------- | --------- |------------------------------------------------------------ |
+| [Firefly](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) |1150k    | 包含23种常见中文下游任务的优质中文数据，对于每个任务，由人工书写若干种指令模板，保证数据的高质量与丰富度   |
+| [Ruozhiba](https://huggingface.co/datasets/LooksJuicy/ruozhiba)  |15k  | 弱智吧数据问答，有助于增强模型回答的逻辑性 |
+| [GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM) |50k  | 微软开源的数据，是利用 GPT-4 生成的 Alpaca 数据，并做了中文翻译 |
+| [COIG](https://huggingface.co/datasets/BAAI/COIG) |160k | 包含知乎、小红书历史问答、价值观、代码问题解决等考题型数据 |
+
+### 📄 对齐数据集
 
 ## 🔧 Settings
 
