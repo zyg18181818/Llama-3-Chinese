@@ -8,12 +8,13 @@
 - 🔥 We provide Llama-3-8B-Chinese-chat-v0.1 at [unstoppable123/Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) and the LoRA weights for Llama3-8B-Chinese-Chat-lora-v0.1 at [unstoppable123/Llama-3-8B-chinese-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)!
 
 ## 🗂️ Guide
-- [1.🚀 QuickStark](#-QuickStart)
-- [2.📝 Datasets](#-Datasets)
+- [⚡️ QuickStark](#-QuickStart)
+- [📝 Datasets](#-Datasets)
+- [🔧 Settings](#-Settings)
+- [📖 Examples](#-Example)
 
 
-
-## 1.🚀 QuickStart
+## ⚡️ QuickStart
 
 - **Run Llama-3-8B-Chinese-chat**
 
@@ -188,11 +189,11 @@ if __name__ == '__main__':
 
 
 
-## 2.📝 Datasets
+## 📝 Datasets
 
-## 3.Setings
+## 🔧 Setings
 
 
-## 4.Examples
+## 📖 Examples
 
 
