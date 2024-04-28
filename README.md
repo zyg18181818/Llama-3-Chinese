@@ -1,4 +1,4 @@
-# [Llama-3-Chinese](https://github.com/zyg18181818/Llama-3-Chinese)
+# Llama-3-Chinese
 
 [**🌐English**](./README.md) 
 
