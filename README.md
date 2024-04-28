@@ -11,7 +11,7 @@
 - [⚡️ QuickStark](#-QuickStart)
 - [📝 Datasets](#-Datasets)
 - [🔧 Settings](#-Settings)
-- [📖 Examples](#-Example)
+- [📖 Examples](#-Examples)
 
 
 ## ⚡️ QuickStart
@@ -191,7 +191,7 @@ if __name__ == '__main__':
 
 ## 📝 Datasets
 
-## 🔧 Setings
+## 🔧 Settings
 
 
 ## 📖 Examples
