@@ -1,6 +1,6 @@
 # Llama-3-Chinese
 
-[**🀄🇨🇳中文**](./README.md) | [**🔤English**](./README_EN.md) 
+[**🀄🇨🇳中文**](./README.md) | **🔤English**
 
 ## ⚗️ Main Contents
 - 💡We provide a **complete workflow**, which includes pretrain, sft(FULL and qlora), DPO, evaluation to bulid a Llama-3-chinese-version.
