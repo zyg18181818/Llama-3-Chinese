@@ -27,7 +27,8 @@
 
 ## 🆙 Updates
 
-- 🔥 We provide Llama-3-8B-Chinese-chat-v0.1 at [unstoppable123/Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) and the LoRA weights for Llama3-8B-Chinese-Chat-lora-v0.1 at [unstoppable123/Llama-3-8B-chinese-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)!
+- 🔥 2024.04.25: We provide [Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) and the LoRA weights on [Llama3-8B-Chinese-Chat-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)!
+- 🔥 2024.04.28: [Llama3-8B-Chinese-Chat-lora-v0.2](https://huggingface.co/unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2) is released!
 
 ## ⚡️ QuickStart
 
@@ -218,6 +219,8 @@ if __name__ == '__main__':
 | --------------- | --------------- | ------------------------------ | ------------------------------------------------------------ |
 |  lora sft(merged)  | Llama-3-8B-Chinese-chat-v0.1  | unstoppable123/Llama-3-8B-Chinese-chat-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) |
 |  lora sft(lora weights)  | Llama3-8B-Chinese-Chat-lora-v0.1  | unstoppable123/Llama-3-8B-chinese-lora-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1) |
+|  lora sft(lora weights) | Llama3-8B-Chinese-Chat-lora-v0.2  | unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2  | [HuggingFace](https://huggingface.co/unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2) |
+
 
 ### 🤖 Chinese data alignment
 
@@ -237,4 +240,22 @@ if __name__ == '__main__':
 ## 🔧 Settings
 
 ## 📖 Examples
+🔵 v0.2 examples（The ***User*** section provides user input, and the ***Assistant*** section generates responses for the model）
+```bash
+User: 解释一下VUE原理
 
+Assistant: VUE是一种基于响应式编程的前端框架，使用了观察者模式来实现数据的双向绑定。其核心思想是使用一个对象来存储状态，并将其观察者模式的观察者列表保存在对象的属性中。这样，当对象的状态发生变化时，观察者列表中的观察者对象将被通知并更新相应的视图。VUE的实现主要包括以下几个部分：
+
+1. 响应式数据源：VUE使用了响应式数据源来存储状态，响应式数据源的值会被实时监测，并且会通知观察者对象进行相应的更新。
+
+2. 观察者模式：VUE使用了观察者模式来实现数据的双向绑定。观察者对象会被通知当响应式数据源的值发生变化时，观察者对象会进行相应的更新。
+
+3. 数据绑定：VUE使用了数据绑定来将响应式数据源的值与视图进行绑定。数据绑定会将响应式数据源的值与视图中的元素进行绑定，并且当响应式数据源的值发生变化时，数据绑定会自动更新视图中的元素。
+
+4. 依赖项管理：VUE使用了依赖项管理来实现响应式数据源的更新。当响应式数据源的值发生变化时，VUE会根据依赖项管理的规则来更新响应式数据源的值，并通知观察者对象进行相应的更新。
+
+5. 组件化：VUE使用了组件化的思想来实现前端开发。组件化将应用程序分成多个小的、独立的模块，每个模块都可以单独地开发、测试和部署。组件化使得前端开发更加灵活和高效。
+
+总之，VUE的实现主要基于响应式编程的思想，使用了观察者模式和数据绑定来实现数据的双向绑定，并使用依赖项管理和组件化的思想来实现前端开发。
+
+```
