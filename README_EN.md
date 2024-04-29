@@ -28,7 +28,7 @@
 ## 🆙 Updates
 
 - 🔥 2024.04.25: We provide [Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) and the LoRA weights on [Llama3-8B-Chinese-Chat-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)!
-- 🔥 2024.04.28: [Llama3-8B-Chinese-Chat-lora-v0.2](https://huggingface.co/unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2) is released!
+- 🔥 2024.04.28: [Llama3-8B-Chinese-Chat-lora-v0.2](https://huggingface.co/unstoppable123/LLaMA3-8B-chinese-v0.2) is released!
 
 ## ⚡️ QuickStart
 
@@ -219,7 +219,7 @@ if __name__ == '__main__':
 | --------------- | --------------- | ------------------------------ | ------------------------------------------------------------ |
 |  lora sft(merged)  | Llama-3-8B-Chinese-chat-v0.1  | unstoppable123/Llama-3-8B-Chinese-chat-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) |
 |  lora sft(lora weights)  | Llama3-8B-Chinese-Chat-lora-v0.1  | unstoppable123/Llama-3-8B-chinese-lora-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1) |
-|  lora sft(lora weights) | Llama3-8B-Chinese-Chat-lora-v0.2  | unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2  | [HuggingFace](https://huggingface.co/unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2) |
+|  lora sft(lora weights) | Llama3-8B-Chinese-Chat-lora-v0.2  | unstoppable123/LLaMA-3-8B_chinese_lora_sft_v0.2  | [HuggingFace](https://huggingface.co/unstoppable123/LLaMA3-8B-chinese-v0.2) |
 
 
 ### 🤖 Chinese data alignment
