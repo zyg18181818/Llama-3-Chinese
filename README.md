@@ -27,7 +27,7 @@
 
 ## 🆙 更新
 - 🔥 2024.04.25: 我们在huggingface上上传了lora微调融合后的[Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1)以及[Llama3-8B-Chinese-Chat-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)的lora权重!
-- 🔥 2024.04.28: [Llama3-8B-Chinese-Chat-lora-v0.2](https://huggingface.co/unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2)发布！
+- 🔥 2024.04.28: [Llama3-8B-Chinese-Chat-lora-v0.2](https://huggingface.co/unstoppable123/LLaMA3-8B-chinese-v0.2)发布！
 
 ## ⚡️ 快速开始
 
@@ -218,7 +218,7 @@ if __name__ == '__main__':
 | --------------- | --------------- | ------------------------------ | ------------------------------------------------------------ |
 |  lora微调(已融合)  | Llama-3-8B-Chinese-chat-v0.1  | unstoppable123/Llama-3-8B-Chinese-chat-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) |
 |  lora微调(lora权重)  | Llama3-8B-Chinese-Chat-lora-v0.1  | unstoppable123/Llama-3-8B-chinese-lora-v0.1  | [HuggingFace](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1) |
-|  lora微调(lora权重)  | Llama3-8B-Chinese-Chat-lora-v0.2  | unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2  | [HuggingFace](https://huggingface.co/unstoppable123/LLaMA3-7B_chinese_lora_sft_v0.2) |
+|  lora微调(lora权重)  | Llama3-8B-Chinese-Chat-lora-v0.2  | unstoppable123/LLaMA-3-8B_chinese_lora_sft_v0.2  | [HuggingFace](https://huggingface.co/unstoppable123/LLaMA3-8B-chinese-v0.2) |
 
 ### 🤖 中文对齐模型
 
