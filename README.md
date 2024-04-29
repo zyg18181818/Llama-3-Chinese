@@ -24,6 +24,7 @@
    * [📄 对齐数据集](#-对齐数据集)
 - [🔧 设置](#-设置)
 - [📖 样例](#-样例)
+- [🎉 致谢](#-致谢)
 
 ## 🆙 更新
 - 🔥 2024.04.25: 我们在huggingface上上传了lora微调融合后的[Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1)以及[Llama3-8B-Chinese-Chat-lora-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)的lora权重!
@@ -258,3 +259,6 @@ Assistant: VUE是一种基于响应式编程的前端框架，使用了观察者
 总之，VUE的实现主要基于响应式编程的思想，使用了观察者模式和数据绑定来实现数据的双向绑定，并使用依赖项管理和组件化的思想来实现前端开发。
 
 ```
+
+## 🎉 致谢
+感谢[CrazyBoyM/llama3-Chinese-chat](https://github.com/CrazyBoyM/llama3-Chinese-chat)的推广宣传
