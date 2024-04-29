@@ -28,7 +28,7 @@
 ## 🆙 Updates
 
 - 🔥 2024.04.25: We provide [Llama-3-8B-Chinese-chat-v0.1](https://huggingface.co/unstoppable123/Llama-3-8B-Chinese-chat-v0.1) and the LoRA weights on [Llama-3-8B-Chinese-Chat-lora-v0.1-lora-weights](https://huggingface.co/unstoppable123/Llama-3-8B-chinese-lora-v0.1)!
-- 🔥 2024.04.28: [Llama3-8B-Chinese-Chat-lora-v0.2](https://huggingface.co/unstoppable123/LLaMA3-8B-chinese-v0.2) and its LoRA weights [Llama-3-8B-Chinese-Chat-lora-v0.2-lora-weights]https://huggingface.co/unstoppable123/LLaMA3-8B_chinese_lora_sft_v0.2 is released!
+- 🔥 2024.04.28: [Llama3-8B-Chinese-Chat-lora-v0.2](https://huggingface.co/unstoppable123/LLaMA3-8B-chinese-v0.2) and its LoRA weights [Llama-3-8B-Chinese-Chat-lora-v0.2-lora-weights](https://huggingface.co/unstoppable123/LLaMA3-8B_chinese_lora_sft_v0.2) is released!
 
 ## ⚡️ QuickStart
 
