@@ -24,6 +24,7 @@
    * [📄 Chinese alighnment dataset](#-Chinese-alighnment-dataset)
 - [🔧 Settings](#-Settings)
 - [📖 Examples](#-Examples)
+- [🎉 Acknowledgments](#-Acknowledgments)
 
 ## 🆙 Updates
 
@@ -259,3 +260,6 @@ Assistant: VUE是一种基于响应式编程的前端框架，使用了观察者
 总之，VUE的实现主要基于响应式编程的思想，使用了观察者模式和数据绑定来实现数据的双向绑定，并使用依赖项管理和组件化的思想来实现前端开发。
 
 ```
+
+## 🎉 Acknowledgments
+Thanks to [CrazyBoyM/llama3-Chinese-chat](https://github.com/CrazyBoyM/llama3-Chinese-chat) for the promotion and publicity
